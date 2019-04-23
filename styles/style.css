@@ -1,0 +1,16 @@
+html, body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 1440px !important;
+}
+
+news-articles {
+	display: flex;
+	flex-wrap: wrap;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	justify-content: center;
+}
+

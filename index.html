@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WebComponents</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+	
+	<div class="container">
+
+		<div class="row mt-2">
+			<header>
+				<h1>Web Components: News API fetch</h1>
+			</header>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="top-bar">
+					<search-bar></search-bar>
+					<small>Type to search for articles..</small>
+				</div>
+			</div>
+		</div>
+		
+		<hr />
+
+		<div class="row">
+			<news-articles></news-articles>
+		</div>
+
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<script src="./index.js" type="module"></script>
+
+</body>
+</html>
