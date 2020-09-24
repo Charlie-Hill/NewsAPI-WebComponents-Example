@@ -11,7 +11,6 @@ This project shows a basic example of reusable Web Components and how they can b
 5. Navigate to the localhost  URL provided by express (should default to `localhost:3000`)
 <br />
 <br />
-
 # Usage
 - Use the search bar to find news articles from various sources across the internet (aggregated by newsapi.org)
 - Relevant results should update as you search with thumbnail images where necessary. From here you can click on any article that interests you to see more details
